@@ -1,0 +1,12 @@
+---
+title: "TechList| Rene Ichin"
+description: "tech list de Rene Ichin"
+
+import type { Technology } from '../data/technologies';
+import { technologies } from '../data/technologies';
+---
+<ul>
+    {technologies.map((tech: Technology) => (
+      <li><b> {tech.name}:</b> con  {tech.experiencia} años de experiencia</li>
+    ))}
+  </ul>
