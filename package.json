@@ -13,5 +13,8 @@
   },
   "dependencies": {
     "astro": "^4.9.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
