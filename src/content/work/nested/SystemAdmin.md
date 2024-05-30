@@ -1,7 +1,7 @@
 ---
 title: Sistemas Administrativos
 publishDate: 2020-03-04 00:00:00
-img: /assets/systemAdmin.jpeg
+img: ../../public/assets/systemAdmin.jpeg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   Sistemas administrativos de acuardo a las necesidades.
