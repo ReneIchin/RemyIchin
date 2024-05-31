@@ -21,6 +21,8 @@ const textLinks: { label: string; href: string }[] = [
   { label: "About", href: getUrl("/about/") },
 ];
 
+const linkHome = getUrl("/");
+
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: {
 	label: string;
@@ -38,7 +40,7 @@ const iconLinks: {
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title">
+		<a href={linkHome} class="site-title">
 			<Icon
 				icon="terminal-window"
 				color="var(--accent-regular)"

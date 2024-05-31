@@ -4,6 +4,13 @@ description: "portafolio de Rene Ichin"
 
 import type { CollectionEntry } from 'astro:content';
 
+const isProduction = import.meta.env.PROD;
+const basePath = isProduction ? '/RemyIchin.github.io' : '';
+
+function getUrl(path) {
+  return `${basePath}${path}`;
+}
+
 interface Props {
 	project: CollectionEntry<'work'>;
 }
@@ -11,7 +18,7 @@ interface Props {
 const { data, slug } = Astro.props.project;
 ---
 
-<a class="card" href={`/work/${slug}`}>
+<a class="card" href={getUrl("/")+`work/${slug}`}>
 	<span class="title">{data.title}</span>
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
 </a>
