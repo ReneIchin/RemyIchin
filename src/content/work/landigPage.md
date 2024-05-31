@@ -1,7 +1,7 @@
 ---
 title: Landing page
 publishDate: 2020-03-02 00:00:00
-img: ../../public/assets/landigPage.png
+img: https://i.imgur.com/TS0M1z6.png
 img_alt: diseño web a tu necesidad
 description: | 
     Diseñar sitios web para tu negocio o personal.
